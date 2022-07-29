@@ -43,10 +43,10 @@ ul {
 
 .hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
     color: white;
-    height: 300px;
+    height: 700px;
     gap: 50px;
     margin-left: 30px;
     margin-right: 30px;
@@ -58,6 +58,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 16px;
 }
 
 button {
@@ -70,11 +71,11 @@ button {
 
 .third {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 52px;
     background-color: white;
-    height: 400px;
+    height: 700px;
 }
 
 img {
@@ -115,8 +116,8 @@ img {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
 }
 
 .picture{
