@@ -14,6 +14,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
+    font-size: x-large;
 }
 
 .logo{
@@ -58,7 +59,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-size: 16px;
+    font-size: xx-large;
 }
 
 button {
@@ -80,6 +81,8 @@ button {
 
 img {
     border: 5px solid lightskyblue;
+    height: 500px;
+    width: 470px;
 }
 
 .fourth {
@@ -110,7 +113,7 @@ img {
 }
 
 .text_one {
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 900;
     
 }
@@ -130,4 +133,5 @@ img {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    font-size: xx-large;
 }
