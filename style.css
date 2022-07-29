@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background: #1F2937;
+    font-family: Besley, serif;
+}
+
+.header{
+    background: #1F2937;
+    border-bottom: 1px solid #1F2937;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    height: 300px;
+    gap: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 155, 252);
+    color: white;
+    padding: 8px 24px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    background-color: white;
+    height: 400px;
+}
+
+img {
+    border: 5px solid lightskyblue;
+}
+
+.fourth {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #1F2937;
+    color: white;
+}
+
+.queen {
+    color: palevioletred;
+}
+
+.text_one {
+    font-size: 32px;
+    font-weight: 900;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.picture{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
